@@ -35,7 +35,7 @@ public class main {
         day.selectByVisibleText("6");
 
         Select month = new Select(driver.findElement(By.name("birthday_month")));
-        month.selectByVisibleText("апр");
+        month.selectByVisibleText("jan");
 
         Select year = new Select(driver.findElement(By.name("birthday_year")));
         year.selectByVisibleText("2001");
